@@ -83,7 +83,7 @@ export default function Contato() {
                   Localização
                 </h3>
                 <p className="text-sm text-muted">
-                  Campinas, SP — Brasil
+                  Amparo, SP — Brasil
                   <br />
                   <span className="text-xs text-slate-400">Em transição para o Paraguai</span>
                 </p>

@@ -44,7 +44,7 @@ export default function Sobre() {
                     <circle cx="8" cy="8" r="6" stroke="currentColor" strokeWidth="1.5"/>
                     <path d="M8 5v3l2 2" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
                   </svg>
-                  Campinas, SP → Paraguai
+                  Amparo, SP → Paraguai
                 </div>
                 <div className="flex items-center gap-2 text-sm text-muted">
                   <svg width="14" height="14" viewBox="0 0 16 16" fill="none" className="text-primary">
@@ -63,8 +63,9 @@ export default function Sobre() {
                 <h2 className="text-2xl font-heading mb-4">Minha história</h2>
                 <p className="text-muted leading-relaxed mb-4">
                   Antes de decidir pela medicina, construí minha carreira como desenvolvedor full stack. 
-                  Fundei uma empresa de assessoria jurídica, desenvolvi sistemas complexos com React, Next.js 
-                  e TypeScript, e aprendi que resolver problemas é o que me move — seja com código ou com cuidado.
+                  Comecei na ETEC João Belarmino estudando Design Digital, e desde então venho desenvolvendo 
+                  sistemas complexos com React, Next.js e TypeScript. Aprendi que resolver problemas é o que 
+                  me move — seja com código ou com cuidado.
                 </p>
                 <p className="text-muted leading-relaxed">
                   A decisão de estudar medicina veio da vontade de impactar vidas de forma mais direta. 
@@ -97,18 +98,18 @@ export default function Sobre() {
                   {[
                     {
                       year: "2026",
-                      title: "Início da Medicina",
-                      description: "Mudança para o Paraguai para cursar medicina, iniciando uma nova etapa de vida.",
+                      title: "Medicina + Tech",
+                      description: "Início da faculdade de medicina na UMAX (Universidad María Auxiliadora) em Assunção, Paraguai. Unindo tecnologia e saúde.",
                     },
                     {
                       year: "2024",
-                      title: "Discovery Assessoria",
-                      description: "Fundação da empresa de assessoria jurídica com foco em cidadania italiana, desenvolvendo toda a tecnologia internamente.",
+                      title: "Freelancer Full Stack",
+                      description: "Consolidação como desenvolvedor autônomo, construindo sistemas de gestão, landing pages e aplicativos para clientes reais.",
                     },
                     {
-                      year: "2023",
-                      title: "Full Stack Developer",
-                      description: "Carreira como desenvolvedor, construindo sistemas com React, Next.js, TypeScript e PostgreSQL.",
+                      year: "2021",
+                      title: "ETEC João Belarmino",
+                      description: "Início do ensino médio integrado ao técnico em Desenvolvimento de Sistemas no Centro Paula Souza, Amparo.",
                     },
                   ].map((item, i) => (
                     <div key={i} className="flex gap-6">
